@@ -1,5 +1,6 @@
 /* This is a comment, by the way */
 
+
 p {
     font: 14px/1.5 "Times New Roman", times, serif;
     text-align: center;
@@ -17,15 +18,18 @@ p {
 
 #top_right{
   
-  text-align: right;
-  position: absolute;
+  float: right;
+  text-align: right; 
+  position: relative;
   top: 0px;
   line-height: 40px;
   padding: 10px;
   
 }
 
-#foot_left {
+
+.foot_left {
+
     text-align: left;
     position: absolute;
     bottom: 0;
@@ -35,29 +39,45 @@ p {
 }
 
 
-#foot_right {
-    text-align: right;
-    position: absolute;
+.foot_right {
+
+    float: right;
+    text-align: left;
+    position: relative;
     bottom: 0;
-    line-height: 40px;
+    line-height: 620px;
     padding: 10px;
 
 }
 
 #centred {
 
-  display: block;
+  float: center;
+  position: relative;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
   margin-left: auto;
   margin-right: auto;
   width: 40%;
-        
+  padding-top: 180px;       
 
 }
 
-div {
 
-  padding: 25px 50px 75px 100px;
+  
+input[type="text"] {
+    border: 2px line-height #456879;
+    border-radius: 20px;
+    height: 40px;
+    width: 500px;
 }
+  
+}
+
+
+
+
 
 img {
     
