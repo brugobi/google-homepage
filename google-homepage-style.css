@@ -1,0 +1,87 @@
+/* This is a comment, by the way */
+
+p {
+    font: 14px/1.5 "Times New Roman", times, serif;
+    text-align: center;
+    
+}
+
+#top_left{
+  text-align: left;
+  position: absolute;
+  top: 0px;
+  line-height: 40px;
+  padding: 10px;
+  
+}
+
+#top_right{
+  
+  text-align: right;
+  position: absolute;
+  top: 0px;
+  line-height: 40px;
+  padding: 10px;
+  
+}
+
+#foot_left {
+    text-align: left;
+    position: absolute;
+    bottom: 0;
+    line-height: 40px;
+    padding: 10px;
+
+}
+
+
+#foot_right {
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    line-height: 40px;
+    padding: 10px;
+
+}
+
+#centred {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+        
+
+}
+
+div {
+
+  padding: 25px 50px 75px 100px;
+}
+
+img {
+    
+}
+
+/* unvisited link */
+a:link {
+  color: gray;
+}
+
+/* visited link */
+a:visited {
+  color: gray;
+}
+
+/* mouse over link */
+a:hover {
+  color: gray;
+}
+
+/* selected link */
+a:active {
+  color: gray;
+}
+
+
+
